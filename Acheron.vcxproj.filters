@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Core">
+      <UniqueIdentifier>{d06859b2-c75b-4a53-9197-471e5c1ba706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Evasion">
+      <UniqueIdentifier>{9e8f6723-7c80-4de1-9930-6321fd6ca2b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Payloads">
+      <UniqueIdentifier>{37b4e9ba-ae12-4508-b309-eb17d28b2092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Utils">
+      <UniqueIdentifier>{7563f6a6-d4b6-4088-baa1-fd75ffe41b25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\memory_manager.cpp">
+      <Filter>Arquivos de Origem\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\pe_loader.cpp">
+      <Filter>Arquivos de Origem\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\syscalls_advanced.cpp">
+      <Filter>Arquivos de Origem\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evasion\anti_edr.cpp">
+      <Filter>Arquivos de Origem\Evasion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\logger.cpp">
+      <Filter>Arquivos de Origem\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\config.cpp">
+      <Filter>Arquivos de Origem\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\payloads\stealth_scanner.cpp">
+      <Filter>Arquivos de Origem\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evasion\module_stomping.cpp">
+      <Filter>Arquivos de Origem\Evasion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\c2_client.cpp">
+      <Filter>Arquivos de Origem\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evasion\code_cave.cpp">
+      <Filter>Arquivos de Origem\Evasion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\memory_manager.h">
+      <Filter>Arquivos de Origem\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\pe_loader.h">
+      <Filter>Arquivos de Origem\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\syscalls_advanced.h">
+      <Filter>Arquivos de Origem\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\evasion\anti_edr.h">
+      <Filter>Arquivos de Origem\Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\logger.h">
+      <Filter>Arquivos de Origem\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\payloads\stealth_scanner.h">
+      <Filter>Arquivos de Origem\Payloads</Filter>
+    </ClInclude>
+    <ClInclude Include="src\evasion\module_stomping.h">
+      <Filter>Arquivos de Origem\Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\c2_client.h">
+      <Filter>Arquivos de Origem\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\evasion\code_cave.h">
+      <Filter>Arquivos de Origem\Evasion</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

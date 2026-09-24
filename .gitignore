@@ -1,0 +1,28 @@
+# Build
+x64/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+
+# Logs
+*.log
+
+# Resultados
+recon_results.json
+
+# Configurações locais
+*.user
+*.aps
+*.ncb
+*.opt
